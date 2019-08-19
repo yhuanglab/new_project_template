@@ -44,7 +44,12 @@ with the appropriate text:
 
 * You will want to update the README file as you go through your work. It is
 likely that you'll need to provide a link to the published paper, the title, the abstract of the study, and instructions for how to generate the paper.
-
+* Be sure to export conda environment as yaml file and commit it.
+```
+conda env export > environment.yml
+git add environment.yml
+git commit -m "Add conda env file"
+```
 * Once you understand all of this, you can run
 
   ```
